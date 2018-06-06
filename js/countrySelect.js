@@ -1339,3 +1339,18 @@
 		delete c.i;
 	});
 });
+
+
+$(document).ready(function (){
+	$('.product-left').mouseenter(function (){
+		var selected = $(this);
+		$('.product-left').each(function (){
+			if (!$(this).is(":hover")){
+				$(this).css('opacity', '0.5');
+			}
+		})
+	})
+	$('.product-left').mouseleave(function (){
+		$('.product-left').css('opacity', '1');
+	})
+});
