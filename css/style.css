@@ -3106,3 +3106,13 @@ a:hover{
 body{
 	  overflow-x: hidden;
 }
+
+.rlx-main-watch__description--container .row h1{
+	color: #777;
+}
+
+.rlx-main-watch__description--container .row .col-md-6{
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: justify;
+}
