@@ -3111,6 +3111,11 @@ body{
 	color: #777;
 }
 
+.rlx-main-watch__description--container .row{
+	border-bottom: 1px solid #cacaca;
+	padding-bottom: 15px; 
+}
+
 .rlx-main-watch__description--container .row .col-md-6{
 	padding-left: 50px;
 	padding-right: 50px;
